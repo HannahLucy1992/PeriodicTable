@@ -70,7 +70,7 @@
     const company = this.company.value;
     const boxes = Array.from(selected);
 
-    const res = await fetch('_UlKY1FFCf9LvZAreu5VK6ZQjZtqy9_iwUdZt', {
+    const res = await fetch('https://script.google.com/macros/s/AKfycbxSxG5oi8gsWHoekHjvujLdMDyfzdSdvH8lXQvUL6FUOnxbcY3YONwEyefUqB3ro15tFQ/exec', {
       method: 'POST',
       body: JSON.stringify({ name, company, boxes }),
       headers: {
